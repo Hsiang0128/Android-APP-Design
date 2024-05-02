@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/VIEW_PAGER"
+        android:layout_width="match_parent"
+        android:layout_alignTop="@id/BUTTON_BACK"
+        android:layout_marginTop="60dp"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/BUTTON_BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="0dp"
+        android:background="#70309F"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Back Main"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+</RelativeLayout>
