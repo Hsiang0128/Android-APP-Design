@@ -5,7 +5,7 @@
 - Intellij
 - Android Studio
 ## 作業概述
-- Homework 1
+- [Homework 1](https://github.com/Hsiang0128/Android_APP_Design/tree/main/Homework%201)
   - 在Intellij中學習使用Kotlin的基本語法
 - Homework 2
   - 在Android Studio中設計一個BMI計算機的APP
