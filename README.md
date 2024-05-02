@@ -5,7 +5,7 @@
 - Intellij
 - Android Studio
 ## 作業概述
-- Homework 1 (Intellij)
-  - 學習使用 Kotlin 的基本語法
+- Homework 1 
+  - 在Intellij中學習使用Kotlin的基本語法
 - Homework 2 (Android Studio)
-  - 設計一個BMI計算機的APP
+  - 在Android Studio中設計一個BMI計算機的APP
