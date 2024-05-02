@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/CONTENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/PAGE"
+        android:layout_alignTop="@id/PAGE"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text = "The World Health\nOrganization recommends a\nBody Mass Index (BMI) as a \nmeasure of obesity by\ndividing your weight in\nkilograms by your height in meters. The National Health\nAdministration recommends\nthat the BMI of adults in\nChina should be maintained\nbetween 18.5 (kg/㎡) and\n24 (kg/㎡), and being too\nthin, overweight or too fat\nwill be detrimental to health."
+        android:textAlignment="viewStart"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <TextView
+        android:id="@+id/PAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="BMI Info. (Page I)"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/SLIDE_LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Left"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

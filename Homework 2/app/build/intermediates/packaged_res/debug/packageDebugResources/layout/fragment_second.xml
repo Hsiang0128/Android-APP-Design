@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/CONTENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/PAGE"
+        android:layout_alignTop="@id/PAGE"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text = "Being overweight or obese\n(BMI≧24) is a major risk\nfactor for chronic diseases\nsuch as diabetes,\ncardiovascular disease,\nand malignancy\nOverweight: 24≦ BMI &lt; 27\nMild obesity: 27≦ BMI &lt;30\nModerate obesity: 30≦\nBMI &lt;35\nSevere obesity: BMI ≧ 35"
+        android:textAlignment="viewStart"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <TextView
+        android:id="@+id/PAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="BMI Info. (Page II)"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/SLIDE_LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Left"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/SLIDE_RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="Slide Right"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

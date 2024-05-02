@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/LABEL_APP_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:text="BMI APP"
+        android:textColor="#FE0000"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/LABEL_PERSONAL_DATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/LABEL_APP_NAME"
+        android:layout_alignTop="@id/LABEL_APP_NAME"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="130dp"
+        android:text="Personal Data"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/LABEL_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/LABEL_PERSONAL_DATA"
+        android:layout_alignTop="@id/LABEL_PERSONAL_DATA"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:text="Name:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/LABEL_GENDA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/LABEL_NAME"
+        android:layout_alignTop="@id/LABEL_NAME"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:text="Genda:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/LABEL_BMI_VALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/LABEL_GENDA"
+        android:layout_alignTop="@id/LABEL_GENDA"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:text="BMI Value:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/LABEL_STATUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/LABEL_BMI_VALUE"
+        android:layout_alignTop="@id/LABEL_BMI_VALUE"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:text="Status:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/BUTTON_INPUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="30dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:background="#70309F"
+        android:textColor="@color/white"
+        android:text="Input Data"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/BUTTON_INFO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/LABEL_STATUS"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="30dp"
+        android:background="#70309F"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="BMI Info."
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
