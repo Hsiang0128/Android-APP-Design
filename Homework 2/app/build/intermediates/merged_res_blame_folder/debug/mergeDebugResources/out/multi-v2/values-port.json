@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.bmi_app-mergeDebugResources-56:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hsiang\\.gradle\\caches\\transforms-3\\e7c3020c271f18e76aa331aa64d96efb\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
