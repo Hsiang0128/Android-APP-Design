@@ -9,3 +9,5 @@
   - 在Intellij中學習使用Kotlin的基本語法
 - Homework 2
   - 在Android Studio中設計一個BMI計算機的APP
+- Final Project 
+  - 製作中...
