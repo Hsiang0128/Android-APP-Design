@@ -1,4 +1,4 @@
-package com.example.mychapter07
+package com.example.homework3
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,7 +13,6 @@ class MyAdapter(context: Context, data: ArrayList<Item>, private val layout: Int
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
         val view = View.inflate(parent.context, layout, null)
-
         val item = getItem(position) ?: return view
         view.findViewById<ImageView>(R.id.img_photo).setImageResource(item.photo)
         view.findViewById<TextView>(R.id.tv_msg).text = item.name

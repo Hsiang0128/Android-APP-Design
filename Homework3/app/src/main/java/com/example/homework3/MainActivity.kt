@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page1)
-
+        title = "Midterm-Project"
         findViewById<Button>(R.id.BUTTON_START).setOnClickListener {
             // 创建意图对象，指定当前活动和目标活动
             val intent = Intent(this, Page2Activity::class.java)
