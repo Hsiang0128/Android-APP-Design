@@ -10,6 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+
         android:layout_marginTop="40dp"
         android:text="Please record an audio for\nthe contest:"
         android:textColor="@color/black"
@@ -65,6 +66,7 @@
         android:layout_width="160dp"
         android:layout_height="85dp"
         android:layout_marginTop="44dp"
+
         android:text="Playback"
         android:textAllCaps="false"
         android:textSize="26sp"
@@ -74,9 +76,9 @@
 
     <Button
         android:id="@+id/BUTTON_STOP_PLAYBACK"
-        android:enabled="false"
         android:layout_width="160dp"
         android:layout_height="85dp"
+        android:enabled="false"
         android:text="Stop\nPlayback"
         android:textAllCaps="false"
         android:textSize="26sp"

@@ -40,6 +40,9 @@ class Page4Activity : AppCompatActivity() {
         findViewById<Button>(R.id.BUTTON_START).setOnClickListener {
             findViewById<Button>(R.id.BUTTON_START).isEnabled = false
             findViewById<ImageView>(R.id.IMG_ANIMATION).setImageResource(R.drawable.animation)
+            findViewById<TextView>(R.id.LABEL_REQUEST).text = "Player Contesting..."
+            findViewById<SeekBar>(R.id.BAR_PLAYER1).progress = 0
+            findViewById<SeekBar>(R.id.BAR_PLAYER2).progress = 0
             startPlayer1()
             startPlayer2()
             animationStart()
@@ -62,13 +65,14 @@ class Page4Activity : AppCompatActivity() {
                 }
                 player1Bar.progress += step.random()
             }
-            if(player1Bar.progress >= 100 && player1Bar.progress > player2Bar.progress) {
+            if(player1Bar.progress > player2Bar.progress) {
                 runOnUiThread {
                     val imageView = findViewById<ImageView>(R.id.IMG_ANIMATION)
                     imageView.clearAnimation()
                     findViewById<TextView>(R.id.LABEL_REQUEST).text = "This Winner is ${findViewById<TextView>(R.id.LABEL_PLAYER_NAME_1).text}"
                     Toast.makeText(this, "This Winner is ${findViewById<TextView>(R.id.LABEL_PLAYER_NAME_1).text}", Toast.LENGTH_SHORT).show()
                     music.stop()
+                    findViewById<Button>(R.id.BUTTON_START).isEnabled = true
                 }
             }
         }.start()
@@ -88,13 +92,14 @@ class Page4Activity : AppCompatActivity() {
                 }
                 player2Bar.progress += step.random()
             }
-            if(player2Bar.progress >= 100 && player2Bar.progress > player1Bar.progress) {
+            if(player2Bar.progress > player1Bar.progress) {
                 runOnUiThread {
                     val imageView = findViewById<ImageView>(R.id.IMG_ANIMATION)
                     imageView.clearAnimation()
                     findViewById<TextView>(R.id.LABEL_REQUEST).text = "This Winner is ${findViewById<TextView>(R.id.LABEL_PLAYER_NAME_2).text}"
                     Toast.makeText(this, "This Winner is ${findViewById<TextView>(R.id.LABEL_PLAYER_NAME_2).text}", Toast.LENGTH_SHORT).show()
                     music.stop()
+                    findViewById<Button>(R.id.BUTTON_START).isEnabled = true
                 }
             }
         }.start()

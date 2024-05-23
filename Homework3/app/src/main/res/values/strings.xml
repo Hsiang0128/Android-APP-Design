@@ -2,15 +2,17 @@
     <string name="app_name">Homework 3</string>
 
     <integer-array name="image_list">
-        <item>@drawable/apple</item>
-        <item>@drawable/avocado</item>
-        <item>@drawable/banana</item>
-        <item>@drawable/cherries</item>
-        <item>@drawable/coconut</item>
-        <item>@drawable/grapes</item>
-        <item>@drawable/lemon</item>
-        <item>@drawable/orange</item>
-        <item>@drawable/peach</item>
-        <item>@drawable/pineapple</item>
+        <item>@drawable/hamburger</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/bread</item>
+        <item>@drawable/burrito</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/candy</item>
+        <item>@drawable/cookie</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/fried_food</item>
+        <item>@drawable/hot_dog</item>
+        <item>@drawable/sushi</item>
+        <item>@drawable/takoyaki</item>
     </integer-array>
 </resources>
